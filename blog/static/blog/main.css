@@ -1,0 +1,86 @@
+body {
+  background-color: #e8e8e8;
+}
+
+/* barre de navigation */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #4e7eb7;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 25px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #e8e15f;
+  color: #4e7eb7;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:active {
+  background-color: #e8e15f;
+  color: #4e7eb7;
+}
+
+/* contenu */
+.col-md-8 {
+  border-radius: 15;
+  background-color: white;
+  border: 1px solid lightgrey;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  margin: 5px;
+}
+
+.col-md-2 {
+  background-color: #e8e8e8;
+  margin: 0;
+  padding: 0;
+
+}
+
+.col-md-2 a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+
+.col-md-2 a.active {
+  background-color: #cccccc;
+}
+
+.col-md-2 a:hover {
+  background-color: #cccccc;
+}
+
+/* barre latéral gauche */
+.left-sdbar {
+  border: 1px solid lightgrey;
+  background-color: #e8e8e8;
+}
+
+/* barre latéral droite */
+.right-sdbar {
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
